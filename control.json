@@ -1,1 +1,9 @@
-
+{
+  "enabled": false,
+  "users": {
+    "default": {
+      "urls": [],
+      "commands": []
+    }
+  }
+}
