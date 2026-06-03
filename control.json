@@ -1,14 +1,1 @@
-{
-  "enabled": true,
-  "interval_seconds": 20,
-  "users": {
-    "default": {
-      "commands": []
-    },
-    "midor": {
-      "commands": [
-        "start notepad"
-      ]
-    }
-  }
-}
+
