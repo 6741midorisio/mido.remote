@@ -5,8 +5,9 @@
 ### インストール
 以下のリンクからmido.remoteをダウンロード
 
-[リリース]()
-[mido.remote.exe](https://github.com/6741midorisio/mido.remote/releases/download/mido.remote/mido.remote.exe).
+- リリースページ   [release](https://github.com/6741midorisio/mido.remote/releases/tag/mido.remote)
+
+- rawデータ(15.6MB)   [mido.remote.exe](https://github.com/6741midorisio/mido.remote/releases/download/mido.remote/mido.remote.exe).
 ### 初回実行
 mido.remote.exeを実行
 ### 2回目以降の起動
