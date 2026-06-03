@@ -4,6 +4,7 @@
 ## 使用方法
 ### インストール
 以下のリンクからmido.remoteをダウンロード
+[GitHub Pages]().
 ### 初回実行
 mido.remote.exeを実行
 ### 2回目以降の起動
