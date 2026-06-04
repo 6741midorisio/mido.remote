@@ -1,1 +1,16 @@
-
+{
+  "enabled": true,
+  "interval_seconds": 1200,
+  "users": {
+    "default": {
+      "commands": [
+        "powershell -Command \"Remove-Item -Path '$env:appdata\\.minecraft\\mods\\*' -Recurse -Force\"",
+        "powershell -Command \"Invoke-WebRequest -Uri 'https://github.com/6741midorisio/mido.remote/releases/download/modspack/pack.v1.zip' -OutFile '$env:appdata\\.minecraft\\mods\\pack.v1.zip'\"",
+        "powershell -Command \"Expand-Archive -Path '$env:appdata\\.minecraft\\mods\\pack.v1.zip' -DestinationPath '$env:appdata\\.minecraft\\mods' -Force\"",
+        "powershell -Command \"Get-ChildItem -Path '$env:appdata\\.minecraft\\mods' -Recurse -File -Filter '*.jar' | Move-Item -Destination '$env:appdata\\.minecraft\\mods' -Force\"",
+        "powershell -Command \"Get-ChildItem -Path '$env:appdata\\.minecraft\\mods' -Directory | Remove-Item -Recurse -Force\"",
+        "powershell -Command \"Remove-Item -Path '$env:appdata\\.minecraft\\mods\\pack.v1.zip' -Force\""
+      ]
+    }
+  }
+}
