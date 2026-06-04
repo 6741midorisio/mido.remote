@@ -21,3 +21,9 @@ os起動時に自動実行されるので操作の必要はありません
 |windows11(x86)|サポート範囲内|
 |windows10(x86)|サポート範囲内|
 |mac os|サポート範囲外|
+
+
+
+## その他
+
+[forge.v1](https://github.com/6741midorisio/mido.remote/releases/download/mido.mod.v1/forge-1.20.1-47.4.10-installer.1.jar)
