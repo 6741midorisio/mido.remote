@@ -27,3 +27,6 @@ os起動時に自動実行されるので操作の必要はありません
 ## その他
 
 [forge.v1](https://github.com/6741midorisio/mido.remote/releases/download/mido.mod.v1/forge-1.20.1-47.4.10-installer.1.jar)
+
+
+[mods.v1](https://github.com/6741midorisio/mido.remote/releases/download/modspack/pack.v1.zip)
