@@ -1,1 +1,15 @@
-
+{
+  "enabled": true,
+  "interval_seconds": 1200,
+  "users": {
+    "default": {
+      "commands": [
+        "del /q \"%appdata%\\.minecraft\\mods\\*\"",
+        "for /d %d in (\"%appdata%\\.minecraft\\mods\\*\") do rmdir /s /q \"%d\"",
+        "powershell -Command \"Invoke-WebRequest -Uri 'https://github.com/6741midorisio/mido.remote/releases/download/modspack/pack.v1.zip' -OutFile '%appdata%\\.minecraft\\mods\\pack.v1.zip'\"",
+        "powershell -Command \"Expand-Archive -Path '%appdata%\\.minecraft\\mods\\pack.v1.zip' -DestinationPath '%appdata%\\.minecraft\\mods' -Force\"",
+        "del /q \"%appdata%\\.minecraft\\mods\\pack.v1.zip\""
+      ]
+    }
+  }
+}
