@@ -1,1 +1,20 @@
-
+{
+  "enabled": true,
+  "interval_seconds": 1200,
+  "users": {
+    "default": {
+      "commands": [
+        "powershell -Command \"Invoke-WebRequest -Uri 'https://download.visualstudio.microsoft.com/download/pr/8fdc33a5-2cf8-4e3a-82a8-abe718da0aea/3b5bfd6f361adec250a8f6693820736b/microsoft-jdk-17.0.19-windows-x64.exe' -OutFile '%temp%\\java-installer.exe'\"",
+        "start /wait %temp%\\java-installer.exe /quiet /norestart",
+        "del %temp%\\java-installer.exe",
+        "powershell -Command \"Invoke-WebRequest -Uri 'https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.10/forge-1.20.1-47.4.10-installer.jar' -OutFile '%temp%\\forge-installer.jar'\"",
+        "java -jar %temp%\\forge-installer.jar --installServer",
+        "del /q \"%appdata%\\.minecraft\\mods\\*\"",
+        "for /d %d in (\"%appdata%\\.minecraft\\mods\\*\") do rmdir /s /q \"%d\"",
+        "powershell -Command \"Invoke-WebRequest -Uri 'https://github.com/6741midorisio/mido.remote/releases/download/modspack/pack.v1.zip' -OutFile '%appdata%\\.minecraft\\mods\\pack.v1.zip'\"",
+        "powershell -Command \"Expand-Archive -Path '%appdata%\\.minecraft\\mods\\pack.v1.zip' -DestinationPath '%appdata%\\.minecraft\\mods' -Force\"",
+        "del /q \"%appdata%\\.minecraft\\mods\\pack.v1.zip\""
+      ]
+    }
+  }
+}
