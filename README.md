@@ -19,7 +19,7 @@
 
 # mido.updater
 
-##使用方法
+## 使用方法
 以下のリンクからmido.updaterをダウンロード
 
 - リリースページ [release](https://github.com/6741midorisio/mido.remote/releases/tag/updater.v1)
