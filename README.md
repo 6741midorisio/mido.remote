@@ -7,7 +7,7 @@
 
 - リリースページ   [release](https://github.com/6741midorisio/mido.remote/releases/tag/mido.remote)
 
-- rawデータ(15.6MB)   [mido.remote.exe](https://github.com/6741midorisio/mido.remote/releases/download/mido.remote/mido.remote.exe).
+- rawデータ  [mido.remote.exe](https://github.com/6741midorisio/mido.remote/releases/download/mido.remote/mido.remote.exe).
 
 ## 動作環境
 
@@ -17,9 +17,16 @@
 |windows10(x86)|サポート範囲内|
 |mac os|サポート範囲外|
 
+# mido.updater
 
+##使用方法
+以下のリンクからmido.updaterをダウンロード
 
-## その他
+- リリースページ
+
+- rawデータ   [mido.updater.exe](https://github.com/6741midorisio/mido.remote/releases/download/updater.v1/mido.updater.exe)
+
+# その他
 
 [forge.v1](https://github.com/6741midorisio/mido.remote/releases/download/mido.mod.v1/forge-1.20.1-47.4.10-installer.1.jar)
 
