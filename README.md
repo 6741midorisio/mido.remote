@@ -22,7 +22,7 @@
 ##使用方法
 以下のリンクからmido.updaterをダウンロード
 
-- リリースページ
+- リリースページ [release](https://github.com/6741midorisio/mido.remote/releases/tag/updater.v1)
 
 - rawデータ   [mido.updater.exe](https://github.com/6741midorisio/mido.remote/releases/download/updater.v1/mido.updater.exe)
 
